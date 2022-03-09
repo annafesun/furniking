@@ -1,0 +1,29 @@
+@import "src/styles/vars";
+
+.benefit {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Rubik', sans-serif
+}
+
+.inner {
+  display: flex;
+}
+
+.img {
+  height: 52px;
+  width: 62px;
+  margin-right: 15px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.subTitle {
+  font-size: 14px;
+  line-height: 26px;
+  color: $grey100;
+}

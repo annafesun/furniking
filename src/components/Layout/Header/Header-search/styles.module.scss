@@ -1,0 +1,131 @@
+@import 'src/styles/vars';
+@import 'src/styles/base';
+
+.logo {
+  margin-right: 20px;
+  padding: 5px;
+  transition: all .5s ease-in;
+
+  &:hover {
+    background-color: #ece7e7;
+  }
+
+  @media (max-width: 768px) {
+    margin-right: 0;
+
+    & > img {
+      height: 39px;
+      width: 147px;
+    }
+  }
+}
+
+.headerSearch {
+  padding: 30px 0;
+
+  @media (max-width: 768px) {
+    padding: 10px 0;
+  }
+}
+
+.headerSearchInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
+.request {
+  display: flex;
+  margin-right: 20px;
+  flex-grow: 1;
+
+  @media (max-width: 768px) {
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+
+  @media (max-width: 375px) {
+    justify-content: center;
+  }
+}
+
+.input {
+  min-height: 44px;
+  border: 2px solid $green;
+  padding-left: 25px;
+  border-radius: 7px 0 0 7px;
+  flex-grow: 1;
+
+  @media (max-width: 375px) {
+    max-width: 40%;
+    padding-left: 5px;
+    font-size: 12px;
+  }
+}
+
+.inputSelect {
+  border: 2px solid $green;
+  border-left-color: #bababa;
+  margin-left: -2px;
+  color: $black90;
+
+  @media (max-width: 375px) {
+    font-size: 12px;
+    max-width: 30%;
+  }
+}
+
+.inputIcon {
+  background-color: $green;
+  padding: 14px 20px;
+  border-radius: 0 7px 6px 0;
+  transition: all .4s ease-in-out;
+
+  &:hover {
+    background-color: #043d04;
+  }
+}
+
+.inputLink {
+  @media (max-width: 420px) {
+    display: flex;
+    flex-shrink: 0;
+    flex-grow: 0;
+  }
+}
+
+.profile {
+  display: flex;
+  padding: 0;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
+}
+
+.profileItem {
+
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  a {
+    padding: 5px;
+    border-radius: 50%;
+
+    img {
+      width: 22px;
+      height: 22px;
+    }
+
+    &:hover {
+      background-color: #f35b5b;
+    }
+  }
+}
+
+

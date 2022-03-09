@@ -1,0 +1,18 @@
+@import "src/styles/vars";
+
+.price {
+  font-size: 18px;
+  display: flex;
+}
+
+.newPrice {
+  font-weight: 700;
+  color: $green;
+  margin-right: 7px;
+}
+
+.oldPrice {
+  font-weight: 600;
+  text-decoration-line: line-through;
+  color: $grey50;
+}

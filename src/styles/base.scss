@@ -1,0 +1,77 @@
+@import "vars";
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box
+}
+
+body {
+  font-size: $baseFontSize;
+  font-family: $mulish;
+  color: $baseColor;
+  background-color: $baseBackground;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.empty {
+  display: none;
+  visibility: hidden;
+  opacity: 0;
+  left: -9999px;
+  top: -9999px;
+}
+
+#main {
+  flex-grow: 1;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  transition: all 350ms ease-in-out;
+
+  &:hover {
+    color: inherit;
+    box-shadow: 0 0 20px #bfbcbc;
+  }
+}
+
+
+// headings
+.h1 {
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 38px;
+  color: $white100;
+}
+
+p {
+  margin: 0;
+}
+
+input, select, a, option {
+  outline: none;
+}
+
+ul {
+  margin: 0;
+}
+

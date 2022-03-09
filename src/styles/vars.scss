@@ -1,0 +1,50 @@
+// path
+$fonts: '../fonts/';
+// colors
+$black100: #2F2F2F;
+$black90: #555555;
+$black80:#515151;
+$green: #7AC751;
+$white100: #fff;
+$white90: #b4b3b3;
+$grey100: #757575;
+$grey60: #C2C2C2;
+$grey50: #CCCCCC;
+$blue: #00B7F1;
+$red: #FF6868;
+// fontSizes
+$baseFontSize: 16px;
+$largeFontSize: 40px;
+// fonts
+$mulish: 'Mulish', serif;
+$rubik: 'Rubik', serif;
+// screenSizes
+$large: 1200px;
+$desktop: 1000px;
+$tablet: 768px;
+$mobile: 320px;
+
+
+$baseFont: $mulish;
+$baseBackground: $white90;
+$baseColor: $black90;
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1440px
+);
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1282px
+);
+
+$grid-columns: 15;
+$grid-gutter-width: 40px;
+$grid-gutter-width-mobile: $grid-gutter-width;
+

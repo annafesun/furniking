@@ -1,0 +1,58 @@
+@import 'src/styles/base';
+
+.privacy {
+  padding: 33px 18px;
+
+  @media (max-width: 767px) {
+    .privacy {
+      padding: 33px 0;
+    }
+  }
+
+  .privacyInner {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+
+    @media (max-width: 420px) {
+      display: block;
+      font-size: 18px;
+      text-align: center;
+    }
+  }
+}
+
+.copyRight {
+  @media (max-width: 467px) {
+    margin-bottom: 15px;
+  }
+}
+
+.details {
+
+  .button:not(:last-child) {
+    margin-right: 51px;
+  }
+
+  @media (max-width: 420px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.button {
+  word-break: break-word;
+
+  &:hover {
+    transition: all .3s ease-in-out;
+    color: $green;
+  }
+
+  @media (max-width: 600px) {
+    display: block;
+
+    &:not(:last-child) {
+      padding-bottom: 5px;
+    }
+  }
+}

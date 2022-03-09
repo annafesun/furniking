@@ -1,0 +1,64 @@
+@import 'src/styles/vars';
+@import 'src/styles/base';
+
+.header {
+  font-family: 'Rubik', sans-serif;
+}
+
+.topBar {
+  color: $white100;
+  background-color: $green;
+  padding: 10px 0;
+}
+
+.topBarInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
+.welcome {
+  @media (max-width: 768px) {
+    margin: 0 0 10px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  @media (max-width: 467px) {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+.language {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
+
+  select {
+    color: $white100;
+    background-color: $green;
+    border: none;
+    font-size: 16px;
+
+    @media (max-width: 768px) {
+      width: 20%;
+    }
+  }
+
+  & > span {
+    margin: 0 10px;
+  }
+
+  & > a:hover {
+    transition: all .8s ease-in-out;
+    color: #3d0606;
+  }
+}

@@ -1,0 +1,25 @@
+@import "src/styles/vars";
+
+.collection {
+  padding: 49px 31px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.title {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 20px;
+  color: $green;
+  font-weight: 600;
+  margin-bottom: 13px;
+}

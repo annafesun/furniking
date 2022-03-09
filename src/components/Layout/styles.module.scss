@@ -1,0 +1,18 @@
+@import 'src/styles/vars';
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  overflow-X: hidden
+}
+
+.white {
+  background-color: $white100;
+}
+
+.black {
+  background-color: $black100;
+  color: $white100;
+}

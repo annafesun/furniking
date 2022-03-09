@@ -1,0 +1,45 @@
+.menu {
+  margin: 0;
+  background-color: #F7F8FA;
+  width: 100%;
+  padding: 0 70px;
+
+  @media (max-width: 768px) {
+    padding: 0;
+  }
+}
+
+.list {
+  display: flex;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.listItem {
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+
+  a {
+    padding: 25px 12px;
+
+    &:hover {
+      color: gold;
+      background-color: rgba(191, 126, 50, 0.8);
+      transition: all .3s ease-in-out;
+      border-radius: 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    font-size: 18px;
+  }
+
+  &:not(:last-child) {
+    @media (max-width: 767px) {
+    }
+  }
+}

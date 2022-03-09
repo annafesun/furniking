@@ -1,0 +1,25 @@
+@import "src/styles/vars";
+
+.total {
+  display: inline-block;
+  transition: all .7s ease-in-out;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  color: $grey100;
+  padding: 3px;
+
+  &:hover {
+    background-color: #e0c371;
+    color: #5f2a08;
+    border-radius: 10%;
+  }
+}
+
+.arrow {
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+}

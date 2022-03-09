@@ -1,0 +1,15 @@
+.offers {
+  display: flex;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+}
+
+.offer {
+  padding: 0 15px;
+  flex: 0 0 50%;
+
+  @media (max-width: 768px) {
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+  }
+}

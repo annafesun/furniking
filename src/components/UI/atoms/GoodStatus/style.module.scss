@@ -1,0 +1,22 @@
+@import "src/styles/vars";
+
+.goodStatus {
+  font-weight: 600;
+  padding: 5px 9px;
+  border-radius: 0 0 5px 0;
+  font-size: 12px;
+  color: $white100;
+  position: absolute;
+}
+
+.blue {
+  background-color: #00B7F1;
+}
+
+.green {
+  background-color: #7AC751;
+}
+
+.red {
+  background-color: #FF6868;
+}

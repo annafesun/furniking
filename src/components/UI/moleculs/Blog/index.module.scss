@@ -1,0 +1,56 @@
+@import "src/styles/vars";
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 240px 44px 30px 44px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  color: $white100;
+  border-radius: 8px;
+
+  @media (max-width: 768px) {
+    padding: 100px 20px 20px 20px;
+  }
+}
+
+.tagDate {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.date {
+  font-size: 14px;
+  letter-spacing: 0.008em;
+  line-height: 18.2px;
+  margin-left: 9px;
+
+  @media (max-width: 467px) {
+    font-size: 12px;
+  }
+}
+
+.title {
+  font-size: 39px;
+  letter-spacing: 0.005em;
+  margin-bottom: 39px;
+  font-weight: 700;
+
+  @media (max-width: 1000px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 467px) {
+    font-size: 20px;
+  }
+}
+
+.buttons {
+  display: block;
+  font-size: 14px;
+  color: $white100;
+}

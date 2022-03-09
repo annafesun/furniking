@@ -1,0 +1,54 @@
+@import "src/styles/vars";
+
+.offer {
+  padding: 29px 24px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 11px;
+}
+
+.text {
+  font-size: 18px;
+  color: $grey100;
+  margin-bottom: 23px;
+}
+
+.priceAndButtons {
+  display: flex;
+  margin-bottom: 31px;
+}
+
+.timeList {
+  display: flex;
+  font-family: 'Rubik', sans-serif;
+  padding: 0;
+}
+
+.timeListItem {
+  border-radius: 50%;
+  background-color: $green;
+  color: $white100;
+  padding: 7px 10px;
+  text-align: center;
+
+  &:not(:last-child) {
+    margin-right: 18px;
+  }
+}
+
+.number {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.textTime {
+  font-size: 6px;
+  text-transform: uppercase;
+}
+
