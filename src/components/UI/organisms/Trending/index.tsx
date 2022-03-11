@@ -1,4 +1,4 @@
-import React, {MouseEvent} from 'react';
+import React, {MouseEvent, useEffect, useState} from 'react';
 import cn from 'classnames'
 //hooks
 import {useGoods} from "./hooks/useGoods";

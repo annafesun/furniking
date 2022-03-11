@@ -1,11 +1,12 @@
 import React from 'react';
-import cn from 'classnames'
 //components
 import Main from "./Main";
 import Header from "./Header";
 import Footer from "./Footer";
 //styles
 import styles from './styles.module.scss'
+import cn from 'classnames'
+import SectionMenu from "./SectionMenu";
 
 type Props = {
     theme?: 'white' | 'black'
@@ -19,6 +20,7 @@ const Layout: React.FC<Props> = ({children, theme = 'white'}) => {
             }
         >
             <Header />
+            <SectionMenu/>
             <Main>
                 {children}
             </Main>

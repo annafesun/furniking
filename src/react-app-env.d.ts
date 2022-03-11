@@ -8,3 +8,5 @@ declare module "*.svg" {
     const value: string;
     export default value;
 }
+
+export type Nullable<T> = T | null

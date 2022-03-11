@@ -1,8 +1,8 @@
 import React from 'react';
 //components
-import SiteBar from "../../moleculs/SiteBar";
-import Menu from "../../moleculs/Menu";
-import Banner from "../../moleculs/Banner";
+import SiteBar from "../../UI/moleculs/SiteBar";
+import Menu from "../../UI/moleculs/Menu";
+import Banner from "../../UI/moleculs/Banner";
 //styles
 import styles from './index.module.scss'
 import shared from 'styles/shared.module.scss'
