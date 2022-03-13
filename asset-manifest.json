@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/furniking/static/css/main.1b7b41da.css",
+    "main.js": "/furniking/static/js/main.0f9502db.js",
+    "static/css/873.b3692e8d.chunk.css": "/furniking/static/css/873.b3692e8d.chunk.css",
+    "static/js/873.576a814a.chunk.js": "/furniking/static/js/873.576a814a.chunk.js",
+    "static/js/776.c117b641.chunk.js": "/furniking/static/js/776.c117b641.chunk.js",
+    "static/media/collection.png": "/furniking/static/media/collection.3cbabc1e572ebf2e174a.png",
+    "static/media/BlogsCard_1.png": "/furniking/static/media/BlogsCard_1.b351751b9aa319b64af3.png",
+    "static/media/blueChair.png": "/furniking/static/media/blueChair.e3e41814f4ce0d98e647.png",
+    "static/media/BlogsCard_2.png": "/furniking/static/media/BlogsCard_2.6b7519b1ee11563303ea.png",
+    "static/media/chairGoods4.png": "/furniking/static/media/chairGoods4.5878e549024fa3755574.png",
+    "static/media/offerBg.png": "/furniking/static/media/offerBg.8ef50865901135f3b6a5.png",
+    "static/media/chairBeigeGoods.png": "/furniking/static/media/chairBeigeGoods.1c7fa95e4c64436f3110.png",
+    "static/media/chairBlackGoods.png": "/furniking/static/media/chairBlackGoods.0cdef78373910c1bea88.png",
+    "static/media/chairGoods3.png": "/furniking/static/media/chairGoods3.06bb8d2cf637da6a70dc.png",
+    "static/media/avatar.png": "/furniking/static/media/avatar.80ef802160684d80b938.png",
+    "static/media/benefitsGift.svg": "/furniking/static/media/benefitsGift.ddedcab71d4b562533e91399b89b8989.svg",
+    "static/media/beenfitsDeliver.svg": "/furniking/static/media/beenfitsDeliver.129ffb16322e5c3020e5fd3bf94b9826.svg",
+    "static/media/ShopIcon.svg": "/furniking/static/media/ShopIcon.df6375420b059bd9d970abdd23f27942.svg",
+    "static/media/ViewIcon.svg": "/furniking/static/media/ViewIcon.09bb502e70fc88393ab040a967d85ffe.svg",
+    "static/media/benefitsMusic.svg": "/furniking/static/media/benefitsMusic.a3c7f20fd37e4f6d9e68096f9a267981.svg",
+    "static/media/tagIco.svg": "/furniking/static/media/tagIco.0c77b8015cce99a54162abcfe1e549b4.svg",
+    "static/media/benefitsWallet.svg": "/furniking/static/media/benefitsWallet.fd5cf071897bb585999eb7049c44b2ff.svg",
+    "static/media/CompareIcon.svg": "/furniking/static/media/CompareIcon.a39bf0fb44c5bb861e9c9267e063b7ea.svg",
+    "static/media/HeartIcon.svg": "/furniking/static/media/HeartIcon.caec3eb0e851c7e38518c2bf6e26e84b.svg",
+    "static/media/arrow.svg": "/furniking/static/media/arrow.099c217f068a5d17d255e72c80c1852f.svg",
+    "index.html": "/furniking/index.html",
+    "main.1b7b41da.css.map": "/furniking/static/css/main.1b7b41da.css.map",
+    "main.0f9502db.js.map": "/furniking/static/js/main.0f9502db.js.map",
+    "873.b3692e8d.chunk.css.map": "/furniking/static/css/873.b3692e8d.chunk.css.map",
+    "873.576a814a.chunk.js.map": "/furniking/static/js/873.576a814a.chunk.js.map",
+    "776.c117b641.chunk.js.map": "/furniking/static/js/776.c117b641.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b7b41da.css",
+    "static/js/main.0f9502db.js"
+  ]
+}
